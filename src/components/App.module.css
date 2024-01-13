@@ -1,0 +1,9 @@
+.components {
+  display: flex;
+  gap: 30px;
+}
+
+.leftComponents {
+  display: flex;
+  gap: 30px;
+}

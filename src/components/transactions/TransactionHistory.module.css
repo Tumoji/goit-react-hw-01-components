@@ -1,0 +1,54 @@
+.transactionHistoryContainer {
+  position: relative;
+  overflow-y: auto;
+  margin-top: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+}
+
+.transactionHistory {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.headTable {
+  width: 200px;
+  padding: 10px 10px;
+  border-right: solid 0.5px rgb(255, 255, 255);
+  text-align: center;
+  color: white;
+}
+
+.headTable:first-child {
+  border-top-left-radius: 20px;
+}
+
+.headTable:last-child {
+  border-right: none;
+  border-top-right-radius: 20px;
+}
+
+.headSection {
+  border-bottom: solid 0.5px rgb(255, 255, 255);
+  background-color: rgb(54, 171, 230);
+}
+
+.bodySection {
+  background-color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  max-height: 414px;
+  overflow-y: auto;
+  display: block;
+}
+
+.bodyTable {
+  width: 200px;
+  padding: 14.2px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #434343;
+}
+tr:nth-child(even) {
+  background-color: #eef1f3; /* You can change this color as per your preference */
+}
